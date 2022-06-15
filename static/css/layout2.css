@@ -1,0 +1,485 @@
+body {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica", "Arial", sans-serif;
+}
+
+body {
+    background: #fff url("../img/bg.jpg") repeat top left;
+    color: #424242;
+}
+
+.wrapper {
+    padding-top: 1rem;
+}
+
+.ui-outputlabel-rfi {
+    color: #f96b55;
+}
+
+.login-container {
+    box-shadow: 0 0 8px #ababab;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.login-container__header {
+    padding: 2rem 1rem;
+}
+
+.login-container__body {
+    padding: 0 1rem 2rem;
+}
+
+.login-container__msg {
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    /* margin: 0; */
+}
+
+.logo__img {
+    max-width: 100%;
+}
+
+.login-container__title {
+    text-align: center;
+    color: #4b839c;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-icon {
+    color: #c7e5f0;
+    position: absolute;
+    font-size: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 0.5rem
+}
+
+.input-field {
+    border-style: none none solid;
+    border-color: transparent transparent #c7e5f0;
+    border-width: 0 0 1px;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.75rem;
+    padding-left: 2.5rem;
+}
+
+/* .ui-inputfield.ui-state-hover, .ui-widget-content .ui-inputfield.ui-state-hover, .ui-widget-header .ui-inputfield.ui-state-hover,
+.ui-inputfield.ui-state-focus, .ui-widget-content .ui-inputfield.ui-state-focus, .ui-widget-header .ui-inputfield.ui-state-focus {
+    border-style: none none solid;
+    border-color: transparent transparent #c7e5f0;
+    border-width: 0 0 1px;
+    background: transparent;
+} */
+
+.pw-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pw-container__divider-vertical {
+    width: 2rem;
+    color: #bdbdbd;
+}
+
+
+.login-container__footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 1.25rem 1rem;
+    border-top-color: #e3e3e3;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-radius: 0 0 10px 10px;
+    min-height: 35px;
+}
+
+.entry-text {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.en, .pw-en {
+    font-size: 0.875rem;
+}
+
+.en {
+    padding-left: 0.5rem;
+}
+
+.btn {
+    border-radius: 25px;
+    border: none;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #f96b55;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #fb5c44;
+}
+
+.btn-secondary {
+    width: 100%;
+    background-color: #4b839c;
+    color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+    background-color: #467990;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-primary {
+    color: #4b839c;
+}
+
+.link-primary:hover {
+    text-decoration: underline;
+}
+
+.link-secondary {
+    border: 1px solid #4b839c;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: #4b839c;
+}
+
+.link-secondary:hover {
+    border: 1px solid #4b839c;
+    background-color: #4b839c;
+    color: #FFFFFF;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-error {
+    color: #fb3719;
+}
+
+.text-accent {
+    color: #fb3719;
+}
+
+.relative {
+    position: relative;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1 {
+    margin-right: 0.25rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.mr-3 {
+    margin-right: 1rem;
+}
+
+.mr-4 {
+    margin-right: 1.5rem;
+}
+
+.mr-5 {
+    margin-right: 3rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.ml-1 {
+    margin-left: 0.25rem;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+}
+
+.ml-3 {
+    margin-left: 1rem;
+}
+
+.ml-4 {
+    margin-left: 1.5rem;
+}
+
+.ml-5 {
+    margin-left: 3rem;
+}
+
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-1 {
+    padding-top: 0.25rem;
+}
+
+.pt-2 {
+    padding-top: 0.5rem;
+}
+
+.pt-3 {
+    padding-top: 1rem;
+}
+
+.pt-4 {
+    padding-top: 1.5rem;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pr-1 {
+    padding-right: 0.25rem;
+}
+
+.pr-2 {
+    padding-right: 0.5rem;
+}
+
+.pr-3 {
+    padding-right: 1rem;
+}
+
+.pr-4 {
+    padding-right: 1.5rem;
+}
+
+.pr-5 {
+    padding-right: 3rem;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pb-1 {
+    padding-bottom: 0.25rem;
+}
+
+.pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+.pb-3 {
+    padding-bottom: 1rem;
+}
+
+.pb-4 {
+    padding-bottom: 1.5rem;
+}
+
+.pb-5 {
+    padding-bottom: 3rem;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-1 {
+    padding-left: 0.25rem;
+}
+
+.pl-2 {
+    padding-left: 0.5rem;
+}
+
+.pl-3 {
+    padding-left: 1rem;
+}
+
+.pl-4 {
+    padding-left: 1.5rem;
+}
+
+.pl-5 {
+    padding-left: 3rem;
+}
+
+@media (min-width: 576px) {
+    .wrapper {
+        padding: 5%;
+    }
+    
+    .login-container__header {
+        padding: 2rem 2.5rem;
+    }
+
+    .login-container__body {
+        padding: 0 2.5rem 2rem;
+    }
+
+    .login-container__footer {
+        padding: 1.25rem 2.5rem;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .wrapper {
+        padding: 0;
+        margin: 6% 10% 4%;
+    }
+
+    .login-container__header {
+        padding: 2rem 3.5rem;
+    }
+
+    .login-container__body {
+        padding: 0 4rem 2rem;
+    }
+    
+}
+
+
+@media (min-width: 992px) {
+    .wrapper {
+        margin: 6% auto 4%;
+        width: 600px;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+    
+}
+
+
+@media (min-width: 1200px) {
+    
+}
+
+
+@media (min-width: 1400px) {
+    
+}
