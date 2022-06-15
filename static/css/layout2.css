@@ -109,6 +109,23 @@ body {
     min-height: 35px;
 }
 
+.profile-container {
+    background-color: #eaf5f9;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.profile-container__title {
+    border-left: 4px solid #6b95aa;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.profile-container__content {
+    padding-left: 0.75rem;
+}
+
 .entry-text {
     display: block;
     margin: 0.5rem 0;
