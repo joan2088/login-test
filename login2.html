@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="static/css/all.min.css">
+	<link rel="stylesheet" href="static/css/layout2.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="login-container">
+			<header class="login-container__header">
+				<h1 class="logo">
+					<img src="static/img/logo_iis.png" class="logo__img"
+						alt="資訊科學研究所 / Institute of Information Science">
+				</h1>
+				<h2 class="login-container__title">
+					Login
+				</h2>
+			</header>
+			<div class="login-container__body">
+				<div class="mb-4">
+					<label>帳號<span class="en">Username</span><span class="ui-outputlabel-rfi">*</span></label>
+					<div class="input-container">
+						<i class="fa fa-user input-icon"></i><input type="text" class="input-field">
+					</div>
+				</div>
+				<div class="mb-4">
+					<label>通行碼<span class="en">Password</span><span class="ui-outputlabel-rfi">*</span></label>
+					<div class="input-container">
+						<i class="fa fa-key input-icon"></i><input type="password" class="input-field">
+					</div>
+				</div>
+				<div class="mb-4">
+					<input type="checkbox" id="cbox2" value="second_checkbox" checked="checked">
+					<label for="cbox2">&nbsp;記住我<span class="en">Remember Me</span></label>
+				</div>
+				<div class="mb-4">
+					<button class="btn btn-primary" type="button">
+						<span>登入 / Login</span>
+					</button>
+				</div>
+				<div class="pw-container">
+					<div>
+						<a href="#" class="link link-primary" target="_blank">
+							變更通行碼<br><span class="pw-en">Change Password</span>
+						</a>
+					</div>
+					<div class="pw-container__divider-vertical">|</div>
+					<div>
+						<a href="#" class="link link-primary" target="_blank">
+							忘記通行碼<br><span class="pw-en">Forgot Password</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="login-container__footer">
+				尚未申請帳號<span class="en">Not apply an account yet ?</span>&nbsp;
+				<a href="#" class="link link-secondary mt-2 mb-2">One-Time Password</a>
+			</div>
+		</div>
+		<div class="login-container">
+			<header class="login-container__header">
+				<h1 class="logo">
+					<img src="static/img/logo_citi.png" class="logo__img"
+						alt="資訊科學研究所 / Institute of Information Science">
+				</h1>
+				<h2 class="login-container__title">
+					One-Time-Password Login
+				</h2>
+			</header>
+			<div class="login-container__body">
+				<div class="mb-4">
+					<p class="mb-2 mt-0">姓名<span class="en">Name</span>：&#160;
+						<span class="text-bold">王小胖</span>
+					</p>
+					<p class="mb-2">行動電話<span class="en">Mobilephone No.</span>：&#160;
+						<span class="text-bold">0912345678</span>
+					</p>
+					<p>電子郵件<span class="en">E-Mail address</span>：&#160;
+						<span class="text-bold">hoho@iis.sinica.edu.tw</span>
+					</p>
+				</div>
+				<div class="mb-4">
+					Send Verification Code By
+					<div>
+						<label>
+							<input type="radio" name="verification-code" value="sms">
+							傳送到行動電話 / SMS
+						</label>
+					</div>
+					<div>
+						<label>
+							<input type="radio" name="verification-code" value="mail">
+							傳送到電子郵件 / E-Mail
+						</label>
+					</div>
+
+					<button class="btn btn-secondary mt-3" type="button">
+						傳送 / Send
+					</button>
+
+				</div>
+				<p class="text-accent mb-3">請點擊「傳送」以取得識別碼及驗證碼</p>
+				<div class="mb-4">
+					<p>識別碼 / Identification Code</p>
+					<span class="text-bold">2255</span>
+				</div>
+				<div class="mb-4">
+					<label>驗證碼<span class="en">Verification Code</span><span class="ui-outputlabel-rfi">*</span></label>
+					<div class="input-container">
+						<i class="fa fa-key input-icon"></i><input type="text" class="input-field">
+					</div>
+
+				</div>
+				<div class="mb-4">
+					<input type="checkbox" id="cbox2" value="second_checkbox" checked="checked">
+					<label for="cbox2">&nbsp;記住我<span class="en">Remember Me</span></label>
+				</div>
+				<div class="mb-4">
+					<button class="btn btn-primary" type="button">
+						<span>登入 / Login</span>
+					</button>
+				</div>
+			</div>
+			<div class="login-container__footer">
+				已申請帳號<span class="en">already have an account ?</span>&nbsp;
+				<a href="#" class="link link-secondary mt-2 mb-2">Log in</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
