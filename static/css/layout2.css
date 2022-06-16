@@ -8,6 +8,13 @@ body {
     color: #424242;
 }
 
+hr {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: transparent transparent #e1e4e5;
+    margin: 1rem 0;
+}
+
 .wrapper {
     padding-top: 1rem;
 }
