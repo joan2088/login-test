@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <title>iis_關於我們</title>
+    <link rel="stylesheet" href="static/css/all.min.css">
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="stylesheet" href="static/css/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/common.js"></script>
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="top-bar">
+            <ul class="top-bar__link-list main-container text-right">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">網站地圖</a></li>
+                <li><a href="#">資訊所簡訊</a></li>
+                <li><a href="#">卓越演講系列</a></li>
+                <li><a href="#">IIS粉絲團</a></li>
+                <li><a href="#">RSS</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        <div class="header-area__wrapper main-container">
+            <h1 class="logo">
+                <a href="#"><span class="sr-only">中央研究院 資訊科學研究所</span></a>
+            </h1>
+            <div class="float-right">
+                <div class="search-block">
+                    <form action="#" method="post">
+                        <div class="relative">
+                            <label for="input-search" class="invisible">關鍵字搜尋</label>
+                            <input id="input-search" class="search-block__input input" name="input_search" type="search"
+                                placeholder="search" />
+                            <button type="submit" name="search_submit" class="search-block__submit submit">
+                                <i class="fas fa-search"></i><span class="sr-only">送出查詢</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-right mini-toggle-block">
+                    <button class="menu-btn js-mini-toggle-block__btn">
+                        <span class="js-mini-open-menu"><i class="fas fa-bars"></i><span
+                                class="sr-only">開啟選單</span></span>
+                        <span class="js-mini-close-menu invisible"><i class="fas fa-times"></i><span
+                                class="sr-only">關閉選單</span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="menu-area main-container">
+            <ul class="menu-area__list">
+                <li><a href="#">關於本所</a></li>
+                <li><a href="#">人員</a></li>
+                <li><a href="#">研究群</a></li>
+                <li><a href="#">研究概況</a></li>
+                <li><a href="#">活動訊息</a></li>
+                <li><a href="#">徵才</a></li>
+                <li><a href="#">JISE</a></li>
+                <li><a href="#">圖書室</a></li>
+                <li><a href="#">資訊室</a></li>
+                <li><a href="#">所內事務</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mini-menu-area js-mini-menu-area invisible">
+        <div class="mini-search-block">
+            <form class="relative main-container" action="#">
+                <label for="mini-input-search" class="invisible">關鍵字搜尋</label>
+                <input id="mini-input-search" class="mini-search-block__input full-width input" name="input_search"
+                    type="search" placeholder="search" />
+                <button type="submit" name="search_submit" class="mini-search-block__submit submit">
+                    <i class="fas fa-search"></i><span class="sr-only">送出查詢</span>
+                </button>
+            </form>
+        </div>
+        <div class="mini-link-block">
+            <ul class="main-container mini-link-block__list">
+                <li><a href="#">網站地圖</a></li>
+                <li><a href="#">資訊所簡訊</a></li>
+                <li><a href="#">卓越演講系列</a></li>
+            </ul>
+        </div>
+        <nav class="mini-menu-block">
+            <ul class="main-container mini-menu-block__list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Research Groups</a></li>
+                <li><a href="#">Research Overview</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Recruitment</a></li>
+                <li><a href="#">JISE</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Computer Center</a></li>
+                <li><a href="#">Internal Affairs</a></li>
+            </ul>
+        </nav>
+        <div class="mini-icon-block">
+            <ul class="main-container mini-icon-block__list">
+                <li><a href="#"><i class="fas fa-home"></i><span class="sr-only">回首頁</span></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i><span class="sr-only">FB粉絲團</span></a></li>
+                <li><a href="#"><i class="fas fa-rss"></i><span class="sr-only">RSS</span></a></li>
+                <li><a href="#"><i class="fas fa-mobile-alt"></i></a></li>
+                <li><a href="#"><i class="fas fa-desktop"></i></a></li>
+                <li><a href="#">中文</a></li>
+                <li><a href="#">EN</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="print-logo-area main-container">
+        <img src="static/img/logo.png">
+    </div>
+    <section class="main-container page-layout-area">
+        <!-- <div class="breadcrumbs-area">
+            <ol class="breadcrumbs-area__list">
+                <li><i class="fas fa-map-marker-alt"></i>&nbsp;<a href="#">首頁</a></li>
+                <li><a href="#">關於本所</a></li>
+                <li>簡介</li>
+            </ol>
+        </div> -->
+        <ol class="breadcrumbs">
+            <li class="breadcrumbs__item"><i class="fas fa-map-marker-alt"></i>&nbsp;<a href="#">首頁</a></li>
+            <li class="breadcrumbs__item"><a href="#">關於本所</a></li>
+            <li class="breadcrumbs__item">簡介</li>
+        </ol>
+        <div class="page-heading">
+            <h2 class="page-heading__title">關於本所</h2>
+            <a href="#" id="js-print" title="列印" class="link2 link2-secondary">友善列印</a>
+        </div>
+        <!-- 無分類頁 -->
+        <!-- <div class="single-page">
+            <a href="#" id="js-print" title="列印" class="link2 link2-secondary">友善列印</a>
+        </div> -->
+        <div class="nav-level2-area">
+            <ul class="nav-level2-area__list">
+                <li class="active"><a href="#" title="簡介">簡介</a></li>
+                <li><a href="#" title="歷年簡介">歷年簡介</a></li>
+                <li><a href="#" title="本所歷史">本所歷史</a></li>
+                <li><a href="#" title="本所組織">本所組織</a></li>
+                <li><a href="#" title="所長的話">所長的話</a></li>
+                <li><a href="#" title="學術諮詢委員會">學術諮詢委員會</a></li>
+                <li><a href="#" title="所務工作委員會">所務工作委員會</a></li>
+                <li><a href="#" title="榮譽榜">榮譽榜</a></li>
+                <li><a href="#" title="聯絡資訊">聯絡資訊</a></li>
+                <li><a href="#" title="交通資訊">交通資訊</a></li>
+            </ul>
+        </div>
+        <ul class="nav-level3-list">
+            <li class="active"><a href="#" title="歷任所長" class="link2 link2-third">歷任所長</a></li>
+            <li><a href="#" title="歷任副所長" class="link2 link2-third">歷任副所長</a></li>
+            <li><a href="#" title="二十週年特刊" class="link2 link2-third">二十週年特刊</a></li>
+        </ul>
+        <div class="item-heading">
+            <h3 class="item-heading__title"><span>主題選書</span></h3>
+        </div>
+        <div class="page-content">
+            <div class="text-center">
+                <img class="mw-100"
+                    src="https://lh3.googleusercontent.com/OHNIVYD8TxHPeGFwkpDPl6U93j0nxvIikQMP0Jw4cosMBOy1CFpKNMXrTyxfRDf3WYJcAs2IL5fi0JhDG8KoPEuEAi9iD4vopqo2f1_a3WAEYtV48lQqjKxDhccyZPwl6Q=w1280"
+                    alt="test">
+            </div>
+            <ul class="list-disc">
+                <li>提供多元主題選書，若有建議或推薦，歡迎讓我們知道！
+                    <br>
+                    <span class="text-en">Bring in books in fiction & literature, and nonfiction. Any suggestions or
+                        recommendations are welcome.</span>
+                </li>
+                <li>每期100冊，每三個月更新一批選書。
+                    <br>
+                    <span class="text-en">A New selection of 100 books every 3 months.</span>
+                </li>
+                <li>首週【館內展示】，第二週起可【外借14天】，無人預約可續借。
+                    <br>
+                    <span class="text-en">On display in the library for the first week, available for loan from the
+                        second week. The loan period is 14 days, and renewals are permitted unless the item is
+                        reserved for another patron.</span>
+                </li>
+            </ul>
+
+            <div class="row book">
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11101003785&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2023</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">不便利的便利店</a></p>
+                    <p class="book__author">金浩然</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11100939267&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2021</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">先養狗，然後……養了貓。</a></p>
+                    <p class="book__author">谷口治郎</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11101001437&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2023</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">如果歷史是一群喵(11)：南宋金元篇</a></p>
+                    <p class="book__author">肥志</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11100987435&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2022</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">吉卜力電影完全指南</a></p>
+                    <p class="book__author">麥可．里德、傑克．康寧漢</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11101000062&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2023</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">不懂中國畫，只怪你太年輕：用迷因打敗老掉牙，去故宮不再腦袋空空</a></p>
+                    <p class="book__author">顧爺</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11101003785&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2023</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">不便利的便利店</a></p>
+                    <p class="book__author">金浩然</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11100939267&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2021</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">先養狗，然後……養了貓。</a></p>
+                    <p class="book__author">谷口治郎</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11101001437&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2023</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">如果歷史是一群喵(11)：南宋金元篇</a></p>
+                    <p class="book__author">肥志</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11100987435&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2022</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">吉卜力電影完全指南</a></p>
+                    <p class="book__author">麥可．里德、傑克．康寧漢</p>
+                </div>
+                <div class="row__cols5 book__detail">
+                    <a class="book__link" href="#" target="_blank" title="另開新視窗">
+                        <img class="mw-100"
+                            src="https://media.taaze.tw/showThumbnail.html?sc=11101000062&height=400&width=310"
+                            alt="test">
+                    </a>
+                    <p class="book__year">2023</p>
+                    <p class="book__title"><a href="#" target="_blank" title="另開新視窗">不懂中國畫，只怪你太年輕：用迷因打敗老掉牙，去故宮不再腦袋空空</a></p>
+                    <p class="book__author">顧爺</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main-container text-right">
+        <button id="js-toggle-btn" class="toggle-btn">
+            <span id="js-bottom-nav-open">展開選單</span><span id="js-bottom-nav-close" class="invisible">關閉選單</span>
+            <i id="js-fa-caret-down" class="fas fa-caret-down"></i>
+            <i id="js-fa-caret-up" class="fas fa-caret-up invisible"></i>
+        </button>
+    </div>
+    <div class="bottom-nav-area">
+        <ul id="js-bottom-nav" class="main-container bnl1-list bnl1-list_invisible">
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">關於本所</a>
+                <ul class="bnl2-list">
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">簡介</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">歷年簡介</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">本所歷史</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">本所組織</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">所長的話</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">學術諮詢委員會</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">所務工作委員會</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">榮譽榜</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">聯絡資訊</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">交通資訊</a></li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">人員</a>
+                <ul class="bnl2-list">
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">研究人員</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">合聘及兼任研究人員</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">研究技術人員</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">行政技術人員</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">博士後研究人員</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">研究助理</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">國際研究生</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">訪問學人</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">退休及離職研究人員</a></li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">研究群</a>
+                <ul class="bnl2-list">
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">生物資訊</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">電腦系統</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">資料處理與探勘</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">多媒體技術</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">語言與知識處理</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">網路系統與服務</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">程式語言與形式方法</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">計算理論與演算法</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">Natural Language and Knowledge
+                            Processing Group</a></li>
+                    <li class="bnl2-list__item"><a class="bnl2-list__title" href="#">Programming Languages and Formal
+                            Methods Group</a></li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">研究概況</a>
+                <ul class="bnl2-list">
+                    <li>著作目錄</li>
+                    <li>院內合作計畫</li>
+                    <li>院外合作計畫</li>
+                    <li>重要研究成果</li>
+                    <li>近期研究成果</li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">活動訊息</a>
+                <ul class="bnl2-list">
+                    <li>卓越講座系列</li>
+                    <li>近期消息/榮譽</li>
+                    <li>學術演講</li>
+                    <li>學術研討會</li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">徵才</a>
+                <ul class="bnl2-list">
+                    <li>誠徵研究人員</li>
+                    <li>誠徵博士後研究</li>
+                    <li>誠徵助理</li>
+                    <li>誠徵研發替代役</li>
+                    <li>誠徵暑期實習生</li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">JISE</a></li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">圖書室</a>
+                <ul class="bnl2-list">
+                    <li>最新消息</li>
+                    <li>本館導覽</li>
+                    <li>館藏查詢</li>
+                    <li>電子資源</li>
+                    <li>文獻傳遞服務</li>
+                    <li>其他常用連結</li>
+                    <li>個人借閱紀錄</li>
+                    <li>本所出版品</li>
+                    <li>所內專區</li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">資訊室</a>
+                <ul class="bnl2-list">
+                    <li>簡介</li>
+                    <li>網路資源使用規則</li>
+                    <li>IP與機房服務</li>
+                    <li>電腦與網路</li>
+                    <li>帳號及電子郵件</li>
+                    <li>電話系統</li>
+                    <li>列印裝置</li>
+                    <li>會議室設備使用</li>
+                    <li>軟體及物品借領</li>
+                    <li>FAQ及其他</li>
+                    <li>聯絡資訊</li>
+                </ul>
+            </li>
+            <li class="bnl1-list__item"><a class="bnl1-list__title" href="#">所內事務</a>
+                <ul class="bnl2-list">
+                    <li>所內公告</li>
+                    <li>助理需知</li>
+                    <li>問題通報</li>
+                    <li>線上申請、填報</li>
+                    <li>IP與機房服務</li>
+                    <li>所內服務系統</li>
+                    <li>研究人員專區</li>
+                    <li>管理專區</li>
+                    <li>行政各組室</li>
+                    <li>Administrative Affairs</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <footer class="footer-area">
+        <div class="main-container footer-area__container">
+            <div class="footer-area__col">
+                <h2 class="footer-area__heading">中央研究院<br />資訊科學研究所</h2>
+                <p class="footer-area__contact-info text-secondary text-line-height">
+                    115 台北市南港區研究院路二段128號<br />
+                    電話: +886-2-27883799<br />
+                    傳真: +886-2-27824814
+                </p>
+            </div>
+            <div class="footer-area__col">
+                <h2 class="footer-area__heading">連結</h2>
+                <ul class="footer-area__links">
+                    <li><a class="text-secondary" href="#"><i class="fas fa-caret-right"></i> 國際博士學位學程(TIGP)</a></li>
+                    <li><a class="text-secondary" href="#"><i class="fas fa-caret-right"></i> 國內博士學位學程</a></li>
+                    <li><a class="text-secondary" href="#"><i class="fas fa-caret-right"></i> 隱私權政策</a></li>
+                    <li><a class="text-secondary" href="#"><i class="fas fa-caret-right"></i> 保有個資檔案公開項目彙整表</a></li>
+                </ul>
+            </div>
+            <div class="footer-area__icons-col">
+                <ul class="footer-area__icons">
+                    <li><a href="#"><i class="fas fa-home"></i><span class="sr-only">回首頁</span></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i><span class="sr-only">FB粉絲團</span></a></li>
+                    <!-- <li><a href="#"><i class="fas fa-mobile-alt"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fas fa-desktop"></i></a></li> -->
+                    <li><a href="#">中文</a></li>
+                    <li><a href="#">EN</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-container footer-area__bottom">
+            <p class="text-secondary">2019 © 中央研究院 資訊科學研究所 版權所有</p>
+        </div>
+        <div class="main-container print-footer-area">
+            <p>2019 © 中央研究院 資訊科學研究所 版權所有</p>
+            <p>台北市南港區研究院路二段128號 +886-2-27883799</p>
+        </div>
+    </footer>
+</body>
+
+</html>
